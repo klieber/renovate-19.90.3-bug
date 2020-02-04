@@ -1,5 +1,12 @@
 {
   "extends": [
     "config:base"
-  ]
+  ],
+  "packageRules": [{
+    "managers": ["maven"],
+    "registryUrls": [
+      "https://repo.maven.apache.org/maven2",
+      "https://jcenter.bintray.com"
+    ]
+  }]
 }
